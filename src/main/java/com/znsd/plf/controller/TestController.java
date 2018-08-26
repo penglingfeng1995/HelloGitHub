@@ -14,6 +14,7 @@ public class TestController {
 	public String test(Student stu,ClassBean cla) {
 		System.out.println(cla);
 		System.out.println(stu);
+		System.out.println("ls");
 		return "true";
 	}
 	
