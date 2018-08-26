@@ -14,7 +14,12 @@ public class TestController {
 	public String test(Student stu,ClassBean cla) {
 		System.out.println(cla);
 		System.out.println(stu);
+		//remote
+		System.out.println("zs");
+		//local
 		System.out.println("ls");
+		//new
+		System.out.println("new");
 		return "true";
 	}
 	
